@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 
+//针对四川麻将
 const int CARD_RANGE=13; //前后分别安排两个空间，便于查找3连时统一处理，否则边界处理很麻烦
 int cardList[CARD_RANGE];  //保存输入的麻将序列
 int tmpList[CARD_RANGE];  //处理过程中麻将状态的保存
